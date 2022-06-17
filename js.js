@@ -9,3 +9,6 @@ link.oncontextmenu = () => link.setAttribute("href", "./ex.html");
 link.onclick = () => link.setAttribute("href", "./ex.html");
 //change the href attribute to ex.html when middle click
 link.onmousedown = () => link.setAttribute("href", "./ex.html");
+
+//turn of context menu
+link.oncontextmenu = () => false;
