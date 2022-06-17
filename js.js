@@ -11,4 +11,6 @@ link.onclick = () => link.setAttribute("href", "./ex.html");
 link.onmousedown = () => link.setAttribute("href", "./ex.html");
 
 //turn of context menu
-link.oncontextmenu = () => false;
+document.oncontextmenu = function() {
+    return false;
+}
